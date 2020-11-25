@@ -71,7 +71,7 @@ export const Login = styled.div`
   transition: box-shadow 0.5s;
   &:hover {
     cursor: pointer;
-    border: dashed 0.5px #000;
+    border: solid 0.5px #ddd;
     background-color: ${C.theme.common.white};
     box-shadow: 2px 2px 4px #000000;
     transition: background-color 0.5s ease;
