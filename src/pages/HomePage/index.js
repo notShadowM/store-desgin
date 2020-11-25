@@ -5,6 +5,7 @@ import Sliders from "../../components/Sliders";
 import DiscoverNow from "../../components/DiscoverNow";
 import MonthlyDeals from "../../components/MonthlyDeals";
 import RecentNews from "../../components/RecentNews";
+import Brands from "../../components/Brands";
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <DiscoverNow />
       <MonthlyDeals />
       <RecentNews />
+      <Brands />
     </S.Container>
   );
 }

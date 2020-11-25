@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
   margin-top: 200px;
 `;
 
-export const left = styled.div`
+export const Left = styled.div`
   width: 30%;
 `;
 

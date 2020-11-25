@@ -7,7 +7,7 @@ import { ReactComponent as Lines } from "./Lines.svg";
 export default function RecentNews() {
   return (
     <S.Wrapper>
-      <S.left>
+      <S.Left>
         <T.H2>Recent News</T.H2>
         <S.Hr />
 
@@ -16,7 +16,7 @@ export default function RecentNews() {
         <S.Button>
           <S.Pb>Discover</S.Pb>
         </S.Button>
-      </S.left>
+      </S.Left>
       <S.Right>
         <S.Picture>
           <S.Img src={Thumbbnail} />
