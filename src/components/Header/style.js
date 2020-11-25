@@ -40,7 +40,7 @@ export const Navitems = styled(Nav)`
 export const Search = styled.div`
   width: 40px;
   padding: 3px;
-  border: dotted 0.5px transparent;
+  border: solid 0.5px transparent;
   transition: background-color 0.5s ease;
   transition: border-color 0.5s ease;
   border-radius: 50%;
