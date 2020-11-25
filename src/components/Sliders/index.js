@@ -51,7 +51,7 @@ export default function Sliders() {
         <Lines
           style={{
             position: "absolute",
-            zIndex: "0",
+            zIndex: "-1",
             top: "-140px",
             right: "-204px",
           }}
