@@ -44,6 +44,7 @@ export const H3 = styled.h3`
   font-style: normal;
   color: ${T.theme.text.main};
   letter-spacing: 0.03em;
+  display: ${(props) => (props.inlineB ? "inline-block" : "block")};
 `;
 
 export const H4 = styled.h4`

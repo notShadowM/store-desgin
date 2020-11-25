@@ -48,7 +48,14 @@ export default function Sliders() {
       </S.Arrows>
 
       <S.Lines>
-        <Lines />
+        <Lines
+          style={{
+            position: "absolute",
+            zIndex: "0",
+            top: "-140px",
+            right: "-204px",
+          }}
+        />
       </S.Lines>
     </S.Wrapper>
   );

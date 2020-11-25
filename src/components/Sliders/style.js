@@ -59,10 +59,10 @@ export const Arrows = styled.div`
 `;
 
 export const Lines = styled.div`
-  position: absolute;
+  /* position: absolute;
   z-index: -2;
   top: -140px;
-  right: -212px;
+  right: -212px; */
 `;
 
 export const Picture = styled.div`
