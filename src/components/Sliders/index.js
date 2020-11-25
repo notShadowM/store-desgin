@@ -30,6 +30,7 @@ export default function Sliders() {
   return (
     <S.Wrapper>
       <Slider {...settings} style={{}}>
+        {/* border: "solid 1px #000" */}
         <Tab />
         <Tab />
         <Tab />
