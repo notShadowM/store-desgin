@@ -32,10 +32,13 @@ export const Card = styled.div`
   margin-top: 100px;
   height: 380px;
   transition: height 0.3s linear;
+  transition: box-shadow 0.3;
 
   &:hover {
     height: 395px;
+    box-shadow: 0 6px 10px #888888;
     transition: height 0.2s linear;
+    transition: box-shadow 0.3;
   }
 `;
 
