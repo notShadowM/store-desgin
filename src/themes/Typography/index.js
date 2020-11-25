@@ -71,7 +71,7 @@ export const P1 = styled.p`
 
 export const P2 = styled.p`
   font-family: Taviraj;
-  font-weight: 300;
+  font-weight: ${(props) => (props.weight ? props.weight : "300")};
   font-size: 16px;
   line-height: ${(props) => (props.lineHeight ? props.lineHeight : "32px")};
   font-style: normal;

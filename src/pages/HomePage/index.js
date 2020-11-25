@@ -3,6 +3,7 @@ import * as S from "./style";
 import Header from "../../components/Header";
 import Sliders from "../../components/Sliders";
 import DiscoverNow from "../../components/DiscoverNow";
+import MonthlyDeals from "../../components/MonthlyDeals";
 
 export default function HomePage() {
   return (
@@ -10,6 +11,7 @@ export default function HomePage() {
       <Header />
       <Sliders />
       <DiscoverNow />
+      <MonthlyDeals />
     </S.Container>
   );
 }
