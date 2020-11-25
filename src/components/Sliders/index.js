@@ -9,7 +9,7 @@ import { ReactComponent as LeftArrow } from "./LeftArrow.svg";
 import { ReactComponent as Lines } from "./Lines.svg";
 import FamousClock from "../../assets/FamousClock.png";
 
-import SliderTab from "./SliderTab";
+import Tab from "./Tab";
 
 import Slider from "react-slick";
 // import "~slick-carousel/slick/slick.css";
@@ -24,19 +24,19 @@ export default function Sliders() {
     slidesToScroll: 1,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 10000,
+    autoplaySpeed: 7000,
     draggable: false,
   };
   return (
     <S.Wrapper>
       <Slider {...settings} style={{}}>
-        <SliderTab />
-        <SliderTab />
-        <SliderTab />
-        <SliderTab />
+        <Tab />
+        <Tab />
+        <Tab />
+        <Tab />
       </Slider>
 
-      {/* <SliderTab /> */}
+      {/* <Tab /> */}
 
       <S.Arrows>
         <Button>
