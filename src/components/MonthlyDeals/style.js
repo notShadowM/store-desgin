@@ -31,9 +31,11 @@ export const Card = styled.div`
   padding-right: 24px;
   margin-top: 100px;
   height: 380px;
+  transition: height 0.3s linear;
 
   &:hover {
     height: 395px;
+    transition: height 0.2s linear;
   }
 `;
 
@@ -85,8 +87,10 @@ export const Button = styled(B.Button)`
   font-size: 16px;
   width: ${(props) => (props.heart ? "20%" : "75%")};
   visibility: hidden;
+  transition: visibility 0s linear 0s, opacity 300ms;
   ${Card}:hover & {
     visibility: visible;
+    transition: visibility 0.1s linear 0.1s, opacity 300ms;
   }
 `;
 
