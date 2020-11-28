@@ -92,23 +92,23 @@ export const Pbold = styled.p`
   letter-spacing: 0.03em;
 `;
 
-export const footerH = styled.h4`
+export const FooterH = styled.h4`
   font-family: Taviraj;
   font-weight: 600;
   font-size: 24px;
   line-height: 40.94px;
   font-style: normal;
   color: ${T.theme.text.footer};
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
 `;
 
-export const footerP = styled(P1)`
+export const FooterP = styled(P1)`
   line-height: ${(props) => (props.lineHeight ? props.lineHeight : "32px")};
   color: ${T.theme.text.footer};
   letter-spacing: 0.03em;
 `;
 
-export const footerPbolder = styled.p`
+export const FooterPbolder = styled.p`
   font-family: Taviraj;
   font-weight: 500;
   font-size: 20px;
