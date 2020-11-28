@@ -1,29 +1,22 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import * as C from "../../themes/ColorThemes/Styled";
 import * as T from "../../themes/Typography";
 
 export const Wrapper = styled.div`
   margin-top: 112px;
   width: 100%;
+  height: 557.6px;
   background-color: ${C.theme.primary.light};
   padding-top: 70px;
   padding-bottom: 50px;
   position: relative;
   z-index: 0;
-  margin-bottom: 100px;
+  margin-bottom: 250px;
 `;
-
-// export const Background = styled.div`
-//   width: 100%;
-//   background-color: ${C.theme.primary.light};
-//   position: relative;
-//   z-index: 0;
-//   margin-bottom: 100px;
-// `;
 
 export const TextWrapper = styled.div`
   width: 480px;
-  height: 387.6px;
+  height: 600px;
   background-color: transparent;
   margin-left: 380px;
   margin-right: 250px;
@@ -68,7 +61,7 @@ export const Lines = styled.div`
 export const Picture = styled.div`
   position: absolute;
   left: -380px;
-  bottom: -175px;
+  bottom: 35px;
   z-index: 1;
 `;
 

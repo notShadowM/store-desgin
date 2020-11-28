@@ -1,13 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import * as S from "./style";
-import * as T from "../../themes/Typography";
 import Button from "../Button";
-import { ReactComponent as Cart } from "./Cart.svg";
-import { ReactComponent as Word } from "./Word.svg";
 import { ReactComponent as RightArrow } from "./RightArrow.svg";
 import { ReactComponent as LeftArrow } from "./LeftArrow.svg";
 import { ReactComponent as Lines } from "./Lines.svg";
-import FamousClock from "../../assets/FamousClock.png";
 
 import Tab from "./Tab";
 
@@ -27,23 +23,23 @@ export default function Sliders() {
     autoplaySpeed: 7000,
     draggable: false,
   };
+
+  const [state, setState] = useState(" ");
+
   return (
     <S.Wrapper>
-      <Slider {...settings} style={{}}>
-        {/* border: "solid 1px #000" */}
+      <Slider ref={(slider) => setState(slider)} {...settings} style={{}}>
         <Tab />
         <Tab />
         <Tab />
         <Tab />
       </Slider>
 
-      {/* <Tab /> */}
-
       <S.Arrows>
-        <Button>
+        <Button onClick={state.slickPrev}>
           <LeftArrow />
         </Button>
-        <Button type="filled">
+        <Button type="filled" onClick={state.slickNext}>
           <RightArrow />
         </Button>
       </S.Arrows>
