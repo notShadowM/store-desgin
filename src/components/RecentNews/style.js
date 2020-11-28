@@ -27,7 +27,7 @@ export const P = styled(T.P2)`
   font-size: 20px;
   letter-spacing: 0.02em;
   color: ${C.theme.text.sub};
-  margin-top: 200px;
+  margin-top: 160px;
 `;
 
 export const H2 = styled(T.H2)`
@@ -67,18 +67,20 @@ export const Picture = styled.div`
 `;
 
 export const Img = styled.img`
-  width: 700px;
-  height: 480px;
+  width: 610px;
+  height: 484px;
+  margin-left: -70px;
+  margin-top: 10px;
   /* position: absolute; */
   /* z-index: -1; */
 `;
 
 export const Back = styled.div`
-  width: 720px;
-  height: 500px;
+  width: 640px;
+  height: 458px;
   background-color: ${C.theme.primary.light};
   position: absolute;
-  right: -394px;
+  right: -204px;
   top: 10px;
   z-index: -2;
 `;
@@ -86,6 +88,6 @@ export const Back = styled.div`
 export const Lines = styled.div`
   position: absolute;
   z-index: -1;
-  top: -40px;
-  right: -394px;
+  top: -30px;
+  right: -204px;
 `;
