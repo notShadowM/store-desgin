@@ -8,6 +8,7 @@ import RecentNews from "../../components/RecentNews";
 import Brands from "../../components/Brands";
 import Testomonials from "../../components/Testomonials";
 import Instagram from "../../components/Instagram";
+import Footer from "../../components/Footer";
 
 export default function HomePage() {
   return (
@@ -20,6 +21,7 @@ export default function HomePage() {
       <Brands />
       <Testomonials />
       <Instagram />
+      <Footer />
     </S.Container>
   );
 }
