@@ -26,6 +26,10 @@ export const boldP = styled(Pbold)`
   position: absolute;
   left: 20;
   top: 40%;
+
+  &:hover {
+    cursor: pointer;
+  }
 `;
 
 export const Pic = styled.div`
