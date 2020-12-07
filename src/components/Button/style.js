@@ -24,6 +24,7 @@ export const Button = styled.button`
   display: flex;
   justify-content: space-evenly;
   padding: 8px;
+  transition: box-shadow 0.5s;
 
   &:hover {
     cursor: pointer;
