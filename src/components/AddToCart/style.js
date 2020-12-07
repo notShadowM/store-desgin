@@ -35,6 +35,7 @@ export const PicContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin-top: 70px;
+  margin-left: 35px;
 `;
 
 export const ColumnPic = styled.div`

@@ -9,6 +9,7 @@ export const theme = {
   text: {
     main: "#333",
     sub: "#777",
+    third: "#555",
     buttons: "#fff",
     skeletonButtons: "#D84727",
     footer: "#fff",
