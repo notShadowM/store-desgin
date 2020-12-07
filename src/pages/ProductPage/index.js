@@ -3,6 +3,7 @@ import * as S from "./style";
 import Header from "../../components/Header";
 import AddToCart from "../../components/AddToCart";
 import Details from "../../components/Details";
+import Relates from "../../components/Relates";
 import Footer from "../../components/Footer";
 
 export default function ProductPage() {
@@ -11,6 +12,7 @@ export default function ProductPage() {
       <Header />
       <AddToCart />
       <Details />
+      <Relates />
       <Footer />
     </S.Container>
   );
