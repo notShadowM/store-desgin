@@ -25,6 +25,7 @@ export const Button = styled.button`
   justify-content: space-evenly;
   padding: 8px;
   transition: box-shadow 0.5s;
+  outline: none;
 
   &:hover {
     cursor: pointer;
