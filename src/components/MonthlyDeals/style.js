@@ -33,9 +33,11 @@ export const Card = styled.div`
   height: 380px;
   transition: height 0.3s linear;
   transition: box-shadow 0.3;
+  position: relative;
 
   &:hover {
-    height: 395px;
+    /* height: 395px; */
+    height: ${(props) => (props.longer ? "425px" : "395px")};
     box-shadow: 0 6px 10px #888888;
     transition: height 0.2s linear;
     transition: box-shadow 0.3;
@@ -56,6 +58,8 @@ export const Picture = styled.div`
 export const Img = styled.img`
   /* position: absolute; */
   /* z-index: -1; */
+  width: 207px;
+  height: 221px;
 `;
 
 export const P2 = styled(T.P2)`
@@ -82,6 +86,8 @@ export const ButtonsWrapper = styled.div`
   margin-bottom: 10px;
   ${Card}:hover & {
     margin-top: 30px;
+    /* position: absolute;
+    bottom: 0; */
   }
 `;
 

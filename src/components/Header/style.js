@@ -28,6 +28,12 @@ export const Navitems = styled(Nav)`
   padding-left: 4px;
   padding-right: 4px;
   border-radius: 5px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   &:hover {
     cursor: pointer;
     background-color: ${C.theme.common.white};
@@ -69,6 +75,12 @@ export const Login = styled.div`
   padding: 2px;
   transition: background-color 0.5s ease;
   transition: box-shadow 0.5s;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   &:hover {
     cursor: pointer;
     border: solid 0.5px #ddd;
