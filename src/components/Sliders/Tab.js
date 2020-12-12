@@ -8,6 +8,7 @@ import Button from "../Button";
 import { ReactComponent as Cart } from "./Cart.svg";
 import { ReactComponent as Word } from "./Word.svg";
 import FamousClock from "../../assets/FamousClock.png";
+import { Link } from "react-router-dom";
 
 export default function Tab() {
   return (
@@ -22,13 +23,17 @@ export default function Tab() {
         </T.P1>
         <S.Pbold>Discover</S.Pbold>
         <S.Buttons>
-          <Button type="filled" width="180px">
-            <Cart />
-            Add to cart
-          </Button>
-          <Button width="120px">
-            <Word />
-          </Button>
+          <Link to="/ProductPage">
+            <Button type="filled" width="180px">
+              <Cart />
+              Add to cart
+            </Button>
+          </Link>
+          <Link to="/ProductPage">
+            <Button width="120px">
+              <Word />
+            </Button>
+          </Link>
         </S.Buttons>
         <S.Picture>
           <S.Img src={FamousClock} />

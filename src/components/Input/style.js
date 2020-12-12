@@ -2,6 +2,10 @@ import styled from "styled-components";
 import * as C from "../../themes/ColorThemes/Styled";
 import * as T from "../../themes/Typography";
 
+export const Wrapper = styled.div`
+  height: 70px;
+`;
+
 export const Input = styled.input`
   width: 350px;
   height: 40px;
@@ -32,4 +36,12 @@ export const Label = styled.label`
 
   position: relative;
   z-index: 3;
+`;
+
+export const error = styled(T.P2)`
+  color: red;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  height: 20px;
 `;
