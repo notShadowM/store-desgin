@@ -14,10 +14,10 @@ export default function LoginHeader() {
 
       <S.Mode>
         <Link to="/Login">
-          <S.Type active>Login</S.Type>
+          <S.Type>Login</S.Type>
         </Link>
         <Link to="/SignUp">
-          <S.Type>Sign up</S.Type>
+          <S.Type active>Sign up</S.Type>
         </Link>
       </S.Mode>
     </S.Wrapper>

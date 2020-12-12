@@ -2,10 +2,20 @@ import React from "react";
 import * as S from "./style";
 
 export default function Input(props) {
-  const { id, name, type, value, label, holder, handleChange, error } = props;
+  const {
+    id,
+    name,
+    type,
+    value,
+    label,
+    holder,
+    handleChange,
+    error,
+    foucs,
+  } = props;
 
   return (
-    <>
+    <S.Wrapper>
       <S.Label htmlFor={id}>{label}</S.Label>
       <S.Input
         type={type}
@@ -14,8 +24,10 @@ export default function Input(props) {
         value={value}
         placeholder={holder}
         onChange={handleChange}
+        // onblur={console.log("hi")}
+        // onblur={foucs}
       />
-      {error && <div className="warning">{error}</div>}
-    </>
+      {error && <S.error>{error}</S.error>}
+    </S.Wrapper>
   );
 }

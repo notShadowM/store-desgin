@@ -5,13 +5,16 @@ import { ReactComponent as Login } from "./Login.svg";
 import { ReactComponent as Shopping } from "./Shopping.svg";
 import * as S from "./style";
 import * as T from "../../themes/Typography";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <S.Wrapper>
-      <S.Logo>
-        <Logo />
-      </S.Logo>
+      <Link to="/">
+        <S.Logo>
+          <Logo />
+        </S.Logo>
+      </Link>
 
       <S.Navs>
         <S.Navitems>Watches</S.Navitems>
@@ -24,12 +27,14 @@ export default function Header() {
         <S.Search>
           <Search />
         </S.Search>
-        <S.Login>
-          <Login />
-          <T.Navitems size="18px" lineHeight="30.71px">
-            Log In
-          </T.Navitems>
-        </S.Login>
+        <Link to="/Login">
+          <S.Login>
+            <Login />
+            <T.Navitems size="18px" lineHeight="30.71px">
+              Log In
+            </T.Navitems>
+          </S.Login>
+        </Link>
         <S.Shopping>
           <Shopping />
         </S.Shopping>
