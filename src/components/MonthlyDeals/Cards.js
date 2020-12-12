@@ -15,7 +15,7 @@ export default function Cards() {
     axios
       .get("https://mohammed-al-nabahin.herokuapp.com/api/products")
       .then((data) => {
-        console.log(data.data.data);
+        // console.log(data.data.data);
         setApi(data.data.data);
         setLoading(false);
       });
