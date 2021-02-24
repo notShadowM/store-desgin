@@ -2,7 +2,17 @@ import React from "react";
 import * as S from "./style";
 
 export default function Input(props) {
-  const { id, name, type, value, label, holder, handleChange, error } = props;
+  const {
+    id,
+    name,
+    type,
+    value,
+    label,
+    holder,
+    handleChange,
+    error,
+    foucs,
+  } = props;
 
   return (
     <S.Wrapper>
@@ -17,7 +27,7 @@ export default function Input(props) {
         // onblur={console.log("hi")}
         // onblur={foucs}
       />
-      {error && <S.Error>{error}</S.Error>}
+      {error && <S.error>{error}</S.error>}
     </S.Wrapper>
   );
 }

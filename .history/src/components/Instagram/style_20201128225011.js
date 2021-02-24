@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   margin-top: 150px;
 `;
 
-export const ImgWrapper = styled.div`
+export const imgWrapper = styled.div`
   width: 100%;
   display: flex;
 `;

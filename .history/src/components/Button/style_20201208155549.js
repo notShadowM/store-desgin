@@ -1,5 +1,11 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import * as C from "../../themes/ColorThemes/Styled";
+import * as T from "../../themes/Typography";
+
+const fontFaces = css`
+  @import url("https://fonts.googleapis.com/css2?family=Taviraj&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+`;
 
 export const Button = styled.button`
   width: ${(props) => props.width};

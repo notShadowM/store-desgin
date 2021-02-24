@@ -35,7 +35,7 @@ export default function DiscoverNow() {
           Feels the balancing function and beauty in our wooden watches
         </S.P>
 
-        <S.BoldP>Discover Now</S.BoldP>
+        <S.boldP>Discover Now</S.boldP>
 
         <S.Pic right="20px" bottom="5px">
           <S.Img src={Watch} />

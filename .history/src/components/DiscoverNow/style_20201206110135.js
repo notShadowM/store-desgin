@@ -21,7 +21,7 @@ export const P = styled(P1)`
   margin-top: 8px;
 `;
 
-export const BoldP = styled(Pbold)`
+export const boldP = styled(Pbold)`
   margin-top: 30px;
   position: absolute;
   left: 20;

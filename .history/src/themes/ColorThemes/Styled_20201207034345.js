@@ -1,3 +1,5 @@
+import styled from "styled-components";
+
 export const theme = {
   primary: {
     main: "#DA5E42",

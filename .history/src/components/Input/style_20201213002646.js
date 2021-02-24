@@ -38,7 +38,7 @@ export const Label = styled.label`
   z-index: 3;
 `;
 
-export const Error = styled(T.P2)`
+export const error = styled(T.P2)`
   color: red;
   font-size: 13px;
   margin: 0;

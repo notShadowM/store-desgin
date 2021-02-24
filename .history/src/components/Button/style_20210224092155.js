@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import * as C from "../../themes/ColorThemes/Styled";
 
 export const Button = styled.button`

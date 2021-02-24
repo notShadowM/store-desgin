@@ -17,7 +17,7 @@ export default function Input(props) {
         // onblur={console.log("hi")}
         // onblur={foucs}
       />
-      {error && <S.Error>{error}</S.Error>}
+      {error && <S.error>{error}</S.error>}
     </S.Wrapper>
   );
 }

@@ -11,7 +11,7 @@ export default function Instagram() {
     <S.Wrapper>
       <S.H2>Instagram</S.H2>
       <S.Hr />
-      <S.ImgWrapper>
+      <S.imgWrapper>
         <S.Picture>
           <S.Img src={pic1} />
         </S.Picture>
@@ -27,7 +27,7 @@ export default function Instagram() {
         <S.Picture>
           <S.Img src={pic5} />
         </S.Picture>
-      </S.ImgWrapper>
+      </S.imgWrapper>
     </S.Wrapper>
   );
 }

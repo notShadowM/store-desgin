@@ -1,5 +1,10 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import * as T from "../ColorThemes/Styled";
+
+const fontFaces = css`
+  @import url("https://fonts.googleapis.com/css2?family=Taviraj&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+`;
 
 export const Navitems = styled.li`
   font-family: Taviraj;

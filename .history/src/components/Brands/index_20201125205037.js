@@ -1,5 +1,6 @@
 import React from "react";
 import * as S from "./style";
+import * as T from "../../themes/Typography";
 import Cards from "./Cards";
 
 export default function Brands() {

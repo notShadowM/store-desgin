@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import * as C from "../../themes/ColorThemes/Styled";
+import * as T from "../../themes/Typography";
 
 export const Wrapper = styled.div`
   display: flex;

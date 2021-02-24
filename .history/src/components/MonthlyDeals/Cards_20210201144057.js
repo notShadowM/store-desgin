@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import * as S from "./style";
 import * as T from "../../themes/Typography";
+import Card1 from "../../assets/Card1.png";
 import { ReactComponent as Heart } from "./Heart.svg";
 import axios from "axios";
 

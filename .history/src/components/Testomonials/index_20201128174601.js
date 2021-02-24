@@ -1,5 +1,6 @@
 import React from "react";
 import * as S from "./style";
+import * as T from "../../themes/Typography";
 import image from "./image.png";
 import { ReactComponent as Lines } from "./Lines.svg";
 
